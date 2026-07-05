@@ -1,6 +1,7 @@
 package com.qaspro.worldexplorer.data
 
 import android.content.Context
+import android.util.Log
 import com.qaspro.worldexplorer.data.model.Country
 import com.qaspro.worldexplorer.data.model.CountryIndex
 import com.qaspro.worldexplorer.data.model.CountrySummary
@@ -28,9 +29,14 @@ class CountryRepository(private val appContext: Context) {
 
     suspend fun loadIndex(): List<CountrySummary> = withContext(Dispatchers.IO) {
         indexCache?.let { return@withContext it }
-        val text = readAsset("countries/index.json")
-        val parsed = json.decodeFromString(CountryIndex.serializer(), text).countries
-        indexCache = parsed
+        val parsed = runCatching {
+            val text = readAsset("countries/index.json")
+            json.decodeFromString(CountryIndex.serializer(), text).countries
+        }.getOrElse { e ->
+            Log.e("CountryRepo", "Failed to load index", e)
+            emptyList()
+        }
+        if (parsed.isNotEmpty()) indexCache = parsed
         parsed
     }
 

@@ -1,59 +1,60 @@
 package com.qaspro.worldexplorer.audio
 
 import android.content.Context
+import android.util.Log
 import androidx.media3.common.MediaItem
 import androidx.media3.common.PlaybackException
 import androidx.media3.common.Player
 import androidx.media3.exoplayer.ExoPlayer
 
 /**
- * Loops a soft background atmosphere under each lesson (forest, ocean, city...).
- *
- * Sounds live in assets/ambient/<key>.mp3 and are referenced by key from the
- * country JSON (LessonItem.ambient). If a sound file isn't bundled yet the
- * player simply stays silent — lessons still work, they're just quieter.
- * Drop CC0 loops into assets/ambient/ to bring them to life (Phase 3/4).
+ * Loops a soft background atmosphere under each lesson.
+ * ExoPlayer is created lazily on the first play() call so it never
+ * blocks or crashes Activity startup.
  */
-class AmbientSoundPlayer(context: Context) {
+class AmbientSoundPlayer(private val context: Context) {
 
-    private val player: ExoPlayer = ExoPlayer.Builder(context.applicationContext).build().apply {
-        repeatMode = Player.REPEAT_MODE_ONE
-        volume = 0.35f   // sits gently beneath the narration
-    }
-
+    private var player: ExoPlayer? = null
     private var currentKey: String? = null
 
-    /** Cross-fade-free swap to a new ambient loop. No-op if the file is absent. */
+    private fun getOrCreatePlayer(): ExoPlayer? = runCatching {
+        player ?: ExoPlayer.Builder(context.applicationContext).build().also { p ->
+            p.repeatMode = Player.REPEAT_MODE_ONE
+            p.volume = 0.35f
+            p.addListener(object : Player.Listener {
+                override fun onPlayerError(error: PlaybackException) {
+                    Log.w("Ambient", "Playback error: ${error.message}")
+                    p.stop()
+                    currentKey = null
+                }
+            })
+            player = p
+        }
+    }.getOrElse { e ->
+        Log.e("Ambient", "ExoPlayer init failed", e)
+        null
+    }
+
     fun play(key: String?) {
         if (key == currentKey) return
         currentKey = key
-        player.stop()
-        player.clearMediaItems()
+        val p = getOrCreatePlayer() ?: return
+        p.stop()
+        p.clearMediaItems()
         if (key.isNullOrBlank()) return
-
-        val uri = "asset:///ambient/$key.mp3"
         runCatching {
-            player.setMediaItem(MediaItem.fromUri(uri))
-            player.prepare()
-            player.playWhenReady = true
+            p.setMediaItem(MediaItem.fromUri("asset:///ambient/$key.mp3"))
+            p.prepare()
+            p.playWhenReady = true
         }
     }
 
-    fun pause() { player.playWhenReady = false }
-    fun resume() { if (currentKey != null) player.playWhenReady = true }
+    fun pause() { player?.playWhenReady = false }
+    fun resume() { if (currentKey != null) player?.playWhenReady = true }
 
     fun release() {
         currentKey = null
-        player.release()
-    }
-
-    init {
-        // Missing/short assets should never crash a child's session.
-        player.addListener(object : Player.Listener {
-            override fun onPlayerError(error: PlaybackException) {
-                player.stop()
-                currentKey = null
-            }
-        })
+        runCatching { player?.release() }
+        player = null
     }
 }
