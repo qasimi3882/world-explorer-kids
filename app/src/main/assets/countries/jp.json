@@ -1,0 +1,404 @@
+{
+  "id": "jp",
+  "name": "Japan",
+  "phonetic": "juh-PAN",
+  "flagEmoji": "🇯🇵",
+  "flagUrl": null,
+  "continent": "Asia",
+  "capital": "Tokyo",
+  "latitude": 36.2,
+  "longitude": 138.25,
+  "welcome": "Hello! Welcome to Japan.",
+  "summary": [
+    "Japan is a country in Asia.",
+    "It has mountains, cities, and beautiful nature.",
+    "Let's discover more!"
+  ],
+  "lessons": {
+    "LOCATION": {
+      "type": "LOCATION",
+      "intro": "Let's find Japan on the Earth.",
+      "items": [
+        {
+          "title": "Japan",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Japan_satellite.jpg?width=1400",
+          "narration": [
+            "Japan is a country in Asia.",
+            "It is made of many islands.",
+            "The sea is all around it."
+          ],
+          "ambient": "ocean"
+        }
+      ]
+    },
+    "CONTINENT": {
+      "type": "CONTINENT",
+      "intro": "Which part of the world is Japan in?",
+      "items": [
+        {
+          "title": "Asia",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Japan_satellite.jpg?width=1400",
+          "narration": [
+            "Japan is in Asia.",
+            "Asia is the biggest continent.",
+            "So many countries live here."
+          ]
+        }
+      ]
+    },
+    "CAPITAL": {
+      "type": "CAPITAL",
+      "intro": "Every country has a capital city.",
+      "items": [
+        {
+          "title": "Tokyo",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Buildings_with_colorful_neon_street_signs_at_blue_hour%2C_Shinjuku%2C_Tokyo.jpg?width=1400",
+          "narration": [
+            "This is Tokyo.",
+            "Tokyo is Japan's capital city.",
+            "It is big and full of lights."
+          ],
+          "phonetic": "TOH-kee-oh",
+          "ambient": "city"
+        }
+      ]
+    },
+    "CITIES": {
+      "type": "CITIES",
+      "intro": "Japan has bright and busy cities.",
+      "items": [
+        {
+          "title": "Shibuya",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tokyo_Shibuya_Scramble_Crossing_2018-10-09.jpg?width=1400",
+          "narration": [
+            "Look at all the people!",
+            "This is a famous street in Tokyo.",
+            "Everyone crosses at the same time."
+          ],
+          "phonetic": "shee-BOO-yah",
+          "ambient": "city"
+        }
+      ]
+    },
+    "MOUNTAINS": {
+      "type": "MOUNTAINS",
+      "intro": "Japan has beautiful mountains.",
+      "items": [
+        {
+          "title": "Mount Fuji",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Fuji_Japan_with_Snow%2C_Lakes_and_Surrounding_Mountains.jpg?width=1400",
+          "narration": [
+            "This is Mount Fuji.",
+            "It is Japan's tallest mountain.",
+            "Snow sits on the very top."
+          ],
+          "phonetic": "FOO-jee",
+          "ambient": "wind"
+        }
+      ]
+    },
+    "RIVERS": {
+      "type": "RIVERS",
+      "intro": "Rivers flow all across Japan.",
+      "items": [
+        {
+          "title": "Shinano River",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/20081231_Shinano_River_and_Semiconductor_Niigata_Co.jpg?width=1400",
+          "narration": [
+            "This is the Shinano River.",
+            "It is Japan's longest river.",
+            "The water flows to the sea."
+          ],
+          "phonetic": "shee-NAH-no",
+          "ambient": "river"
+        }
+      ]
+    },
+    "NATURE": {
+      "type": "NATURE",
+      "intro": "Let's walk through nature in Japan.",
+      "items": [
+        {
+          "title": "Bamboo Forest",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Arashiyama_Bamboo_Forest%2C_Kyoto%2C_Japan.jpg?width=1400",
+          "narration": [
+            "These are tall bamboo trees.",
+            "They grow very, very high.",
+            "Listen to the leaves."
+          ],
+          "ambient": "forest"
+        },
+        {
+          "title": "Cherry Trees",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rail_tracks_and_cherry_trees_in_Ashino_Park.jpg?width=1400",
+          "narration": [
+            "Pink flowers everywhere!",
+            "This is springtime in Japan."
+          ],
+          "ambient": "forest"
+        }
+      ]
+    },
+    "ANIMALS": {
+      "type": "ANIMALS",
+      "intro": "Say hello to animals in Japan.",
+      "items": [
+        {
+          "title": "Giant Panda",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lightmatter_panda.jpg?width=1400",
+          "narration": [
+            "This is a giant panda.",
+            "Pandas love to eat bamboo.",
+            "Munch, munch, munch!"
+          ],
+          "ambient": "forest"
+        },
+        {
+          "title": "Red-Crowned Crane",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Red-crowned_Cranes_-_Hokkaido_-_Japan_S4E4202_%2815525814846%29.jpg?width=1400",
+          "narration": [
+            "This is a beautiful crane.",
+            "It has a red spot on its head.",
+            "It can dance!"
+          ],
+          "ambient": "birds"
+        },
+        {
+          "title": "Sika Deer",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sika_Deer_in_Nara%2C_Japan%2C_20240819_1546_4782.jpg?width=1400",
+          "narration": [
+            "These gentle deer live in Nara.",
+            "They love to say hello to people."
+          ],
+          "ambient": "forest"
+        }
+      ]
+    },
+    "PLANTS": {
+      "type": "PLANTS",
+      "intro": "Look at the plants of Japan.",
+      "items": [
+        {
+          "title": "Cherry Blossom",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rail_tracks_and_cherry_trees_in_Ashino_Park.jpg?width=1400",
+          "narration": [
+            "This flower is called sakura.",
+            "It blooms in the spring.",
+            "People love to watch it."
+          ],
+          "phonetic": "sah-KOO-rah",
+          "ambient": "forest"
+        }
+      ]
+    },
+    "FOOD": {
+      "type": "FOOD",
+      "intro": "Yum! Let's taste food from Japan.",
+      "items": [
+        {
+          "title": "Sushi",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nigiri_Moriawase_%28Sushi_Sei%29_%2842217840971%29.jpg?width=1400",
+          "narration": [
+            "This is sushi.",
+            "It is rice with fresh fish.",
+            "Many people in Japan love it."
+          ],
+          "phonetic": "SOO-shee"
+        },
+        {
+          "title": "Ramen",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ramen_Bowl_2.jpg?width=1400",
+          "narration": [
+            "This is ramen.",
+            "It is a warm noodle soup.",
+            "Slurp, slurp!"
+          ],
+          "phonetic": "RAH-men"
+        }
+      ]
+    },
+    "LANDMARKS": {
+      "type": "LANDMARKS",
+      "intro": "Let's see famous places in Japan.",
+      "items": [
+        {
+          "title": "Itsukushima Gate",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Itsukushima-jinja_torii_at_sunset%2C_Miyajima%2C_Japan%2C_20240816_1812_4144.jpg?width=1400",
+          "narration": [
+            "This is a big red gate.",
+            "It stands right in the water!",
+            "It is called a torii."
+          ],
+          "phonetic": "TOR-ee",
+          "ambient": "ocean"
+        },
+        {
+          "title": "Golden Temple",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Japan_Kyoto_Kinkakuji_DSC00117.jpg?width=1400",
+          "narration": [
+            "This temple shines like gold.",
+            "It sits beside a calm pond."
+          ],
+          "ambient": "temple"
+        }
+      ]
+    },
+    "CLOTHES": {
+      "type": "CLOTHES",
+      "intro": "This is special clothing from Japan.",
+      "items": [
+        {
+          "title": "Kimono",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Khalili_Collection_Kimono_02.jpg?width=1400",
+          "narration": [
+            "This is a kimono.",
+            "It is a beautiful robe.",
+            "People wear it on special days."
+          ],
+          "phonetic": "kee-MOH-no"
+        }
+      ]
+    },
+    "MUSIC": {
+      "type": "MUSIC",
+      "intro": "Let's listen to music from Japan.",
+      "items": [
+        {
+          "title": "Taiko Drums",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jyon-jyon_Taiko_Drum_Performance%2C_Beppu_port_%282%29.jpg?width=1400",
+          "narration": [
+            "These are taiko drums.",
+            "They make a big, booming sound.",
+            "Boom, boom, boom!"
+          ],
+          "phonetic": "TY-koh"
+        }
+      ]
+    },
+    "TRANSPORT": {
+      "type": "TRANSPORT",
+      "intro": "How do people travel in Japan?",
+      "items": [
+        {
+          "title": "Bullet Train",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tokyo-Station-2005-7-21_4.jpg?width=1400",
+          "narration": [
+            "This is the bullet train.",
+            "It goes super fast!",
+            "Whoosh, down the track."
+          ],
+          "ambient": "train"
+        }
+      ]
+    },
+    "SPORTS": {
+      "type": "SPORTS",
+      "intro": "Let's play a sport from Japan.",
+      "items": [
+        {
+          "title": "Sumo",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kintaro_zukushi_-_Sumo_no_zu_%28%E9%87%91%E5%A4%AA%E9%83%8E%E5%B0%BD%E7%9B%B8%E6%92%B2%E4%B9%8B%E5%9C%96%29_%28The_Complete_Kintaro_-_The_Sumo_Bout%29_%28BM_2008%2C3037.13501%29.jpg?width=1400",
+          "narration": [
+            "This is sumo wrestling.",
+            "Two strong players push and push.",
+            "It is very old and famous."
+          ],
+          "phonetic": "SOO-moh"
+        }
+      ]
+    },
+    "FESTIVALS": {
+      "type": "FESTIVALS",
+      "intro": "Japan has happy festivals.",
+      "items": [
+        {
+          "title": "Aoi Festival",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aoi_Matsuri.jpg?width=1400",
+          "narration": [
+            "This is a festival parade.",
+            "People wear pretty costumes.",
+            "Everyone is having fun!"
+          ]
+        }
+      ]
+    },
+    "CURRENCY": {
+      "type": "CURRENCY",
+      "intro": "This is the money used in Japan.",
+      "items": [
+        {
+          "title": "Japanese Yen",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/1000_yen_banknote_2004.jpg?width=1400",
+          "narration": [
+            "Japan uses money called yen.",
+            "People buy things with it."
+          ],
+          "phonetic": "YEN"
+        }
+      ]
+    },
+    "LANGUAGE": {
+      "type": "LANGUAGE",
+      "intro": "Let's learn some Japanese words. Tap to hear them!",
+      "items": [
+        {
+          "title": "Hello — Konnichiwa",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Itsukushima-jinja_torii_at_sunset%2C_Miyajima%2C_Japan%2C_20240816_1812_4144.jpg?width=1400",
+          "narration": [
+            "In Japan we say... kon-nee-chee-wah.",
+            "That means hello!"
+          ],
+          "phonetic": "kon-nee-chee-wah"
+        },
+        {
+          "title": "Thank you — Arigato",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Japan_Kyoto_Kinkakuji_DSC00117.jpg?width=1400",
+          "narration": [
+            "To say thank you... ah-ree-gah-toh.",
+            "Now you try!"
+          ],
+          "phonetic": "ah-ree-gah-toh"
+        },
+        {
+          "title": "Goodbye — Sayonara",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rail_tracks_and_cherry_trees_in_Ashino_Park.jpg?width=1400",
+          "narration": [
+            "To say goodbye... sah-yoh-NAH-rah.",
+            "Wave your hand!"
+          ],
+          "phonetic": "sah-yoh-NAH-rah"
+        }
+      ]
+    },
+    "FUN_FACTS": {
+      "type": "FUN_FACTS",
+      "intro": "Here are some amazing facts!",
+      "items": [
+        {
+          "title": "So Many Islands!",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Japan_satellite.jpg?width=1400",
+          "narration": [
+            "Japan has more than six thousand islands!",
+            "That is a lot to explore."
+          ]
+        },
+        {
+          "title": "The Fast Train",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tokyo-Station-2005-7-21_4.jpg?width=1400",
+          "narration": [
+            "The bullet train is faster than a race car!"
+          ],
+          "ambient": "train"
+        },
+        {
+          "title": "Snowy Fuji",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Fuji_Japan_with_Snow%2C_Lakes_and_Surrounding_Mountains.jpg?width=1400",
+          "narration": [
+            "Mount Fuji is so tall it touches the clouds!"
+          ],
+          "ambient": "wind"
+        }
+      ]
+    }
+  }
+}
