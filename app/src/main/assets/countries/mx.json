@@ -1,0 +1,162 @@
+{
+  "id": "mx",
+  "name": "Mexico",
+  "phonetic": "MEK-sih-ko",
+  "flagEmoji": "🇲🇽",
+  "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg",
+  "continent": "North America",
+  "capital": "Mexico City",
+  "latitude": 23.6,
+  "longitude": -102.6,
+  "welcome": "¡Hola! Welcome to Mexico — land of ancient pyramids, colourful celebrations, and amazing tacos!",
+  "summary": [
+    "Mexico is a vibrant country in southern North America, full of colour, music, and flavour.",
+    "It was home to the mighty Aztec and Maya civilisations, who built enormous pyramids.",
+    "Mexico is famous for its delicious food, lively festivals, and beautiful beaches."
+  ],
+  "lessons": {
+    "LOCATION": {
+      "type": "LOCATION",
+      "intro": "Let's find Mexico — it is the land between two great oceans!",
+      "items": [
+        {
+          "title": "Mexico in North America",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mexico_location_map.svg?width=1400",
+          "narration": [
+            "Mexico is in southern North America, with the USA to its north.",
+            "It has coasts on both the Pacific Ocean and the Gulf of Mexico.",
+            "Mexico City, the capital, is one of the largest cities in the world!"
+          ]
+        }
+      ]
+    },
+    "LANDMARKS": {
+      "type": "LANDMARKS",
+      "intro": "Mexico has ancient pyramids and incredible ruins!",
+      "items": [
+        {
+          "title": "Chichén Itzá",
+          "phonetic": "chih-CHEN eet-SAH",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chichen-itza-aub.jpg?width=1400",
+          "narration": [
+            "Chichén Itzá is a giant pyramid built by the ancient Maya people over 1,000 years ago!",
+            "The pyramid has exactly 365 steps — one for every day of the year.",
+            "It is one of the New Seven Wonders of the World!"
+          ]
+        },
+        {
+          "title": "Teotihuacán",
+          "phonetic": "tay-oh-tee-wah-KAN",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pyramid_of_the_Sun,_Teotihuacan.jpg?width=1400",
+          "narration": [
+            "Teotihuacán is an ancient city near Mexico City with massive pyramids!",
+            "The Pyramid of the Sun is so large you can see it from kilometres away.",
+            "A whole city of over 100,000 people lived here 2,000 years ago."
+          ]
+        }
+      ]
+    },
+    "FOOD": {
+      "type": "FOOD",
+      "intro": "Mexican food is one of the most delicious and colourful in the world!",
+      "items": [
+        {
+          "title": "Tacos",
+          "phonetic": "TAH-koh",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tacos_de_birria.jpg?width=1400",
+          "narration": [
+            "Tacos are Mexico's most famous food and are eaten for breakfast, lunch, and dinner!",
+            "A soft corn tortilla is filled with meat, beans, cheese, salsa, and lime.",
+            "Street taco stands are everywhere in Mexico — the smells are incredible!"
+          ]
+        },
+        {
+          "title": "Guacamole",
+          "phonetic": "gwah-kah-MOH-lay",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Guacamole.jpg?width=1400",
+          "narration": [
+            "Guacamole is a creamy dip made from mashed avocado with lime, onion, and chilli!",
+            "Avocados were first grown in Mexico thousands of years ago.",
+            "Dip a crunchy tortilla chip into guacamole — it is absolutely delicious!"
+          ]
+        },
+        {
+          "title": "Churros",
+          "phonetic": "CHOO-roz",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Churros_-_Evan_Bench.jpg?width=1400",
+          "narration": [
+            "Churros are long, crispy, golden-fried pastries rolled in cinnamon sugar!",
+            "They are often dipped into thick, melted chocolate sauce.",
+            "One of the most popular street sweets in all of Mexico and Spain!"
+          ]
+        }
+      ]
+    },
+    "ANIMALS": {
+      "type": "ANIMALS",
+      "intro": "Mexico is home to remarkable and unique creatures!",
+      "items": [
+        {
+          "title": "Axolotl",
+          "phonetic": "ak-suh-LOH-tul",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Axolotl_ganz.jpg?width=1400",
+          "narration": [
+            "The axolotl is one of the most magical creatures in the world — it never grows up!",
+            "It keeps its feathery gills and stays in the water its whole life.",
+            "The axolotl can regrow its own legs, heart, and even parts of its brain!"
+          ]
+        },
+        {
+          "title": "Monarch Butterfly",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarch_Butterfly_Danaus_plexippus.jpg?width=1400",
+          "narration": [
+            "Every year, hundreds of millions of orange Monarch butterflies fly to Mexico for the winter!",
+            "They travel over 4,000 kilometres from Canada and the United States.",
+            "The forests of Mexico glow orange when they all arrive together."
+          ]
+        }
+      ]
+    },
+    "FESTIVALS": {
+      "type": "FESTIVALS",
+      "intro": "Mexico's festivals are bursting with colour and tradition!",
+      "items": [
+        {
+          "title": "Día de los Muertos",
+          "phonetic": "DEE-ah day los MWER-tos",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Altar_de_muertos.jpg?width=1400",
+          "narration": [
+            "Día de los Muertos means Day of the Dead — but it is actually a joyful celebration!",
+            "Families build beautiful altars decorated with marigolds and photos to honour loved ones.",
+            "People dress up in colourful skeleton costumes and dance in the streets."
+          ]
+        }
+      ]
+    },
+    "FUN_FACTS": {
+      "type": "FUN_FACTS",
+      "intro": "Mexico has some incredible facts to discover!",
+      "items": [
+        {
+          "title": "Ancient Chocolate",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chocolate_(140710627).jpg?width=1400",
+          "narration": [
+            "Chocolate was invented in Mexico by the ancient Maya and Aztec civilisations!",
+            "They made a bitter drink from cacao beans — the first chocolate drink in history.",
+            "Now the whole world loves chocolate — and it all started in Mexico!"
+          ]
+        },
+        {
+          "title": "Mariachi Music",
+          "phonetic": "mah-ree-AH-chee",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mariachis_Plaza_Garibaldi.jpg?width=1400",
+          "narration": [
+            "Mariachi bands are the heart and soul of Mexican music!",
+            "They wear fancy charro suits with big sombreros and play guitars, violins, and trumpets.",
+            "If you have a birthday in Mexico, a mariachi band might come and serenade you!"
+          ]
+        }
+      ]
+    }
+  }
+}

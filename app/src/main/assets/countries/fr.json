@@ -1,0 +1,162 @@
+{
+  "id": "fr",
+  "name": "France",
+  "phonetic": "FRAWNSS",
+  "flagEmoji": "🇫🇷",
+  "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg",
+  "continent": "Europe",
+  "capital": "Paris",
+  "latitude": 46.2,
+  "longitude": 2.2,
+  "welcome": "Bonjour! Welcome to France — the land of the Eiffel Tower, croissants, and art!",
+  "summary": [
+    "France is a beautiful country in the heart of western Europe.",
+    "It is famous for fashion, delicious food, and breathtaking art.",
+    "Its capital city, Paris, is known as the City of Light!"
+  ],
+  "lessons": {
+    "LOCATION": {
+      "type": "LOCATION",
+      "intro": "Let's find France on our map!",
+      "items": [
+        {
+          "title": "France in Europe",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/France_location_map-Regions_and_departments.svg?width=1400",
+          "narration": [
+            "France is in western Europe, shaped a bit like a hexagon.",
+            "It borders eight countries including Spain, Italy, and Germany.",
+            "France also has beautiful coastlines on the Atlantic Ocean and the Mediterranean Sea."
+          ]
+        }
+      ]
+    },
+    "LANDMARKS": {
+      "type": "LANDMARKS",
+      "intro": "France has some of the most famous landmarks in the world!",
+      "items": [
+        {
+          "title": "Eiffel Tower",
+          "phonetic": "AY-ful TOW-er",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eiffelturm_2019.jpg?width=1400",
+          "narration": [
+            "The Eiffel Tower is the most visited monument in the world!",
+            "It was built in 1889 and stands 330 metres tall.",
+            "Every night it sparkles with thousands of lights — like magic!"
+          ]
+        },
+        {
+          "title": "The Louvre Museum",
+          "phonetic": "LOO-vruh",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Louvre_Museum_Wikimedia_Commons.jpg?width=1400",
+          "narration": [
+            "The Louvre is the biggest art museum in the world!",
+            "Inside lives the most famous painting ever — the Mona Lisa.",
+            "You could spend a whole week there and still not see everything!"
+          ]
+        },
+        {
+          "title": "Mont Saint-Michel",
+          "phonetic": "mohn san-mee-SHEL",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mont_Saint-Michel_2007.jpg?width=1400",
+          "narration": [
+            "Mont Saint-Michel is a magical island with a medieval castle on top!",
+            "At high tide, the sea surrounds it completely — like a fairy-tale island.",
+            "Monks have lived there for over a thousand years."
+          ]
+        }
+      ]
+    },
+    "FOOD": {
+      "type": "FOOD",
+      "intro": "French food is loved all around the world!",
+      "items": [
+        {
+          "title": "Croissant",
+          "phonetic": "kwah-SAHN",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Croissant,_fresh_baked.jpg?width=1400",
+          "narration": [
+            "A croissant is a light, flaky, buttery pastry shaped like a crescent moon.",
+            "French people eat them warm for breakfast with coffee or hot chocolate.",
+            "Making a perfect croissant takes many hours of folding the dough just right."
+          ]
+        },
+        {
+          "title": "Crêpes",
+          "phonetic": "KREP",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Crepe_with_strawberries.jpg?width=1400",
+          "narration": [
+            "Crêpes are very thin, delicate pancakes from France!",
+            "You can fill them with chocolate spread, strawberries, or lemon and sugar.",
+            "Street crêpe stalls in Paris smell absolutely delicious!"
+          ]
+        }
+      ]
+    },
+    "CITIES": {
+      "type": "CITIES",
+      "intro": "France has stunning cities full of history and culture!",
+      "items": [
+        {
+          "title": "Paris",
+          "phonetic": "PAH-ree",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris_-_Eiffelturm_und_Marsfeld2.jpg?width=1400",
+          "narration": [
+            "Paris is the capital of France and one of the most beautiful cities on Earth!",
+            "The Seine River flows right through the middle of the city.",
+            "Paris has thousands of cafes, art galleries, and gorgeous old buildings."
+          ]
+        }
+      ]
+    },
+    "LANGUAGE": {
+      "type": "LANGUAGE",
+      "intro": "In France, people speak French. Let's learn some words!",
+      "items": [
+        {
+          "title": "Bonjour — Hello",
+          "phonetic": "bon-ZHOOR",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cafes_on_the_Champs-Elysees.jpg?width=1400",
+          "narration": [
+            "Bonjour means hello in French!",
+            "Say it with me — bon-ZHOOR!",
+            "French is spoken in over 29 countries around the world."
+          ]
+        },
+        {
+          "title": "Merci — Thank You",
+          "phonetic": "mair-SEE",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pont_des_Arts_bridge_view.jpg?width=1400",
+          "narration": [
+            "Merci means thank you in French!",
+            "Say it with me — mair-SEE!",
+            "French people love to greet each other with a kiss on each cheek."
+          ]
+        }
+      ]
+    },
+    "FUN_FACTS": {
+      "type": "FUN_FACTS",
+      "intro": "Here are some fun facts about France!",
+      "items": [
+        {
+          "title": "Most Visited Country",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris_-_Aerial_view.jpg?width=1400",
+          "narration": [
+            "France is the most visited country in the whole world!",
+            "More than 90 million tourists visit every year.",
+            "That is more tourists than France even has people living in it!"
+          ]
+        },
+        {
+          "title": "Cheese Paradise",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cheese_platter.jpg?width=1400",
+          "narration": [
+            "France makes over 1,000 different types of cheese!",
+            "Famous French cheeses include Brie, Camembert, and Roquefort.",
+            "French people eat cheese at almost every meal."
+          ]
+        }
+      ]
+    }
+  }
+}

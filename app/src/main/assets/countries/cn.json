@@ -1,0 +1,183 @@
+{
+  "id": "cn",
+  "name": "China",
+  "phonetic": "CHY-nah",
+  "flagEmoji": "🇨🇳",
+  "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg",
+  "continent": "Asia",
+  "capital": "Beijing",
+  "latitude": 35.9,
+  "longitude": 104.2,
+  "welcome": "Nǐ hǎo! Welcome to China — home of the giant panda, the Great Wall, and ancient dragon legends!",
+  "summary": [
+    "China is the most populated country in the world and one of the oldest civilisations.",
+    "It invented paper, printing, gunpowder, and the compass — four things that changed the world!",
+    "China is a land of towering mountains, flowing rivers, bamboo forests, and amazing pandas."
+  ],
+  "lessons": {
+    "LOCATION": {
+      "type": "LOCATION",
+      "intro": "China is a huge country in eastern Asia — let's find it!",
+      "items": [
+        {
+          "title": "China in Asia",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/China_location_map.svg?width=1400",
+          "narration": [
+            "China is the third-largest country in the world by area.",
+            "It borders 14 different countries — more than almost any other nation!",
+            "The Yangtze and Yellow Rivers run through China — they have fed Chinese people for thousands of years."
+          ]
+        }
+      ]
+    },
+    "LANDMARKS": {
+      "type": "LANDMARKS",
+      "intro": "China has some of the most extraordinary landmarks in the world!",
+      "items": [
+        {
+          "title": "The Great Wall",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Great_Wall_of_China_at_Jinshanling-edit.jpg?width=1400",
+          "narration": [
+            "The Great Wall of China is the longest structure ever built by humans!",
+            "It stretches over 21,000 kilometres across mountains and deserts.",
+            "Hundreds of thousands of workers built it over many centuries to protect China."
+          ]
+        },
+        {
+          "title": "The Forbidden City",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Forbidden_City_Beijing.jpg?width=1400",
+          "narration": [
+            "The Forbidden City in Beijing was the palace of Chinese emperors for 500 years!",
+            "It has 9,999 rooms — because only heaven is allowed to have 10,000 rooms.",
+            "Ordinary people were forbidden from entering — that is how it got its name!"
+          ]
+        },
+        {
+          "title": "Zhangjiajie Mountains",
+          "phonetic": "jahng-jyah-jyeh",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Zhangjiajie_National_Forest_Park_-_Hunan,_China.jpg?width=1400",
+          "narration": [
+            "The Zhangjiajie mountains look like something from a fantasy movie!",
+            "Giant pillars of rock shoot straight up from the forest floor.",
+            "These floating mountains inspired the floating islands in the film Avatar!"
+          ],
+          "ambient": "forest"
+        }
+      ]
+    },
+    "ANIMALS": {
+      "type": "ANIMALS",
+      "intro": "China is home to some truly magical animals!",
+      "items": [
+        {
+          "title": "Giant Panda",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Giant_Panda_in_Chengdu.jpg?width=1400",
+          "narration": [
+            "The giant panda is China's most beloved animal and its national treasure!",
+            "They eat bamboo for up to 16 hours a day — they must really love it!",
+            "Giant pandas are very rare, and China works hard to protect them."
+          ],
+          "ambient": "forest"
+        },
+        {
+          "title": "Red Panda",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Red_Panda_-_Bear_-_Panda_(7676598786).jpg?width=1400",
+          "narration": [
+            "The red panda looks like a cross between a fox, a raccoon, and a cat!",
+            "Its fluffy, rusty-red fur keeps it warm in mountain forests.",
+            "Red pandas use their long bushy tails as a cosy blanket while they sleep!"
+          ]
+        }
+      ]
+    },
+    "FOOD": {
+      "type": "FOOD",
+      "intro": "Chinese food is one of the most diverse and delicious cuisines in the world!",
+      "items": [
+        {
+          "title": "Dumplings",
+          "phonetic": "JEE-oww-tse",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Boiled_jiaozi.jpg?width=1400",
+          "narration": [
+            "Dumplings — called jiaozi — are little parcels of dough filled with meat and vegetables!",
+            "They are steamed, boiled, or fried until they are perfectly delicious.",
+            "Chinese families make dumplings together at Lunar New Year — it is a family tradition!"
+          ]
+        },
+        {
+          "title": "Noodles",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lanzhou_Beef_Noodle_Soup.jpg?width=1400",
+          "narration": [
+            "China invented noodles over 4,000 years ago!",
+            "There are hundreds of noodle dishes across China — thick, thin, flat, or round.",
+            "Long noodles are eaten at birthdays — they symbolise a long life!"
+          ]
+        }
+      ]
+    },
+    "LANGUAGE": {
+      "type": "LANGUAGE",
+      "intro": "Chinese is written with characters that look like little pictures!",
+      "items": [
+        {
+          "title": "Nǐ hǎo — Hello",
+          "phonetic": "nee HOW",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Beijing_Tiananmen.jpg?width=1400",
+          "narration": [
+            "Nǐ hǎo means hello in Mandarin Chinese!",
+            "Say it with me — nee HOW!",
+            "Chinese is written in thousands of characters — each one is a beautiful little drawing."
+          ]
+        }
+      ]
+    },
+    "FESTIVALS": {
+      "type": "FESTIVALS",
+      "intro": "Chinese festivals are full of colour, dragons, and fireworks!",
+      "items": [
+        {
+          "title": "Chinese New Year",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chinese_New_Year_2015_-_San_Francisco_(16237732860).jpg?width=1400",
+          "narration": [
+            "Chinese New Year is the biggest festival in China — and in much of Asia!",
+            "Families come together, fireworks fill the sky, and red envelopes of money are given to children.",
+            "A different animal represents each year — the rat, ox, tiger, rabbit, dragon, and more!"
+          ]
+        },
+        {
+          "title": "Lantern Festival",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lantern_Festival.jpg?width=1400",
+          "narration": [
+            "At the end of Chinese New Year comes the magical Lantern Festival!",
+            "Thousands of glowing paper lanterns are released into the night sky.",
+            "It looks like a river of stars floating upward into the darkness."
+          ]
+        }
+      ]
+    },
+    "FUN_FACTS": {
+      "type": "FUN_FACTS",
+      "intro": "China has some mind-blowing facts!",
+      "items": [
+        {
+          "title": "Great Inventions",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_book_bindings.jpg?width=1400",
+          "narration": [
+            "China invented four things that changed the entire world: paper, printing, the compass, and gunpowder!",
+            "Before paper, people wrote on stone, clay, or bamboo — very heavy!",
+            "Without the compass, explorers could not have sailed the oceans and discovered new lands."
+          ]
+        },
+        {
+          "title": "One Billion People",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shanghai_tower_and_lujiazui.jpg?width=1400",
+          "narration": [
+            "China has over 1.4 billion people — that is one in every five humans on Earth!",
+            "Shanghai, China's biggest city, has more people than most entire countries.",
+            "China's bullet trains are the fastest in the world — they can reach 350 kilometres per hour!"
+          ]
+        }
+      ]
+    }
+  }
+}

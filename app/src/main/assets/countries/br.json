@@ -1,0 +1,173 @@
+{
+  "id": "br",
+  "name": "Brazil",
+  "phonetic": "bruh-ZIL",
+  "flagEmoji": "🇧🇷",
+  "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg",
+  "continent": "South America",
+  "capital": "Brasília",
+  "latitude": -14.2,
+  "longitude": -51.9,
+  "welcome": "Olá! Welcome to Brazil — home of the world's biggest rainforest and amazing wildlife!",
+  "summary": [
+    "Brazil is the largest country in South America.",
+    "It is home to the Amazon rainforest — the lungs of our planet!",
+    "Brazil is famous for its beautiful beaches, colourful festivals, and football."
+  ],
+  "lessons": {
+    "LOCATION": {
+      "type": "LOCATION",
+      "intro": "Brazil is a giant country — let's find it on the map!",
+      "items": [
+        {
+          "title": "Brazil in South America",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brazil_location_map.svg?width=1400",
+          "narration": [
+            "Brazil takes up almost half of South America!",
+            "It shares borders with almost every country on the continent.",
+            "The Amazon River — the world's largest river by water — flows right through it."
+          ]
+        }
+      ]
+    },
+    "NATURE": {
+      "type": "NATURE",
+      "intro": "Brazil is packed with incredible nature wonders!",
+      "items": [
+        {
+          "title": "Amazon Rainforest",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_view_of_the_Amazon_Rainforest.jpg?width=1400",
+          "narration": [
+            "The Amazon Rainforest is the biggest rainforest on Earth!",
+            "It is home to more than three million species of plants and animals.",
+            "The trees make so much oxygen that we call it the lungs of the planet."
+          ],
+          "ambient": "jungle"
+        },
+        {
+          "title": "Iguazu Falls",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Iguazu_Falls_Aerial_view.jpg?width=1400",
+          "narration": [
+            "Iguazu Falls is one of the most spectacular waterfalls in the world!",
+            "It is actually 275 different waterfalls all next to each other.",
+            "When you stand next to it, the roar of the water is incredible!"
+          ],
+          "ambient": "waterfall"
+        }
+      ]
+    },
+    "ANIMALS": {
+      "type": "ANIMALS",
+      "intro": "Brazil has more types of animals than anywhere else on Earth!",
+      "items": [
+        {
+          "title": "Toucan",
+          "phonetic": "TOO-kan",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Toucan_toco.jpg?width=1400",
+          "narration": [
+            "The toucan is famous for its enormous, colourful beak!",
+            "Even though the beak looks heavy, it is actually very light.",
+            "Toucans use their long beaks to reach fruit on branches."
+          ],
+          "ambient": "jungle"
+        },
+        {
+          "title": "Jaguar",
+          "phonetic": "JAG-yoo-ar",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Standing_jaguar.jpg?width=1400",
+          "narration": [
+            "The jaguar is the biggest wild cat in the Americas!",
+            "It has beautiful spotted fur that helps it hide in the rainforest.",
+            "Jaguars are excellent swimmers — they even hunt fish!"
+          ],
+          "ambient": "jungle"
+        },
+        {
+          "title": "Capybara",
+          "phonetic": "cap-ih-BAR-uh",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hydrochoerus_hydrochaeris_-_Ragunan_Zoo.jpg?width=1400",
+          "narration": [
+            "Capybaras are the world's largest rodents — like a giant guinea pig!",
+            "They love water and are excellent swimmers.",
+            "They are very friendly animals and often make friends with other species!"
+          ]
+        }
+      ]
+    },
+    "FOOD": {
+      "type": "FOOD",
+      "intro": "Brazilian food is delicious and full of colour!",
+      "items": [
+        {
+          "title": "Açaí Bowl",
+          "phonetic": "ah-sah-EE",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Acai_bowl.jpg?width=1400",
+          "narration": [
+            "Açaí is a deep purple berry that grows in the Amazon!",
+            "Brazilians blend it into a thick smoothie bowl with fruit and granola.",
+            "It is one of the healthiest foods in the world."
+          ]
+        },
+        {
+          "title": "Brigadeiro",
+          "phonetic": "brig-ah-DAY-roo",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brigadeiro_(Brazilian_sweet)_on_a_plate.jpg?width=1400",
+          "narration": [
+            "Brigadeiro is Brazil's most beloved chocolate sweet!",
+            "It is made from chocolate, condensed milk, and butter — then rolled in sprinkles.",
+            "Every Brazilian birthday party has a big plate of brigadeiros!"
+          ]
+        }
+      ]
+    },
+    "FESTIVALS": {
+      "type": "FESTIVALS",
+      "intro": "Brazil has the world's most famous party — Carnival!",
+      "items": [
+        {
+          "title": "Carnival",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Carnival_in_Rio_de_Janeiro.jpg?width=1400",
+          "narration": [
+            "Carnival is the biggest festival in Brazil — and possibly the world!",
+            "Millions of people dance in the streets wearing amazing colourful costumes.",
+            "Samba dancers train for a whole year to perform at Carnival!"
+          ],
+          "ambient": "samba"
+        }
+      ]
+    },
+    "FUN_FACTS": {
+      "type": "FUN_FACTS",
+      "intro": "Wow — Brazil is full of amazing facts!",
+      "items": [
+        {
+          "title": "Football Nation",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Estádio_do_Maracanã.jpg?width=1400",
+          "narration": [
+            "Brazil has won the Football World Cup more times than any other country — five times!",
+            "Football is not just a sport in Brazil — it is a way of life.",
+            "The legendary player Pelé is still considered the greatest footballer ever."
+          ]
+        },
+        {
+          "title": "Christ the Redeemer",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cristo_Redentor_-_Rio_de_Janeiro,_Brasil.jpg?width=1400",
+          "narration": [
+            "On top of a mountain in Rio de Janeiro stands a giant statue called Christ the Redeemer.",
+            "It is 38 metres tall and watches over the whole city.",
+            "It is one of the New Seven Wonders of the World!"
+          ]
+        },
+        {
+          "title": "Portuguese Language",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rio_de_Janeiro_-_Aerial_view_(5).jpg?width=1400",
+          "narration": [
+            "Brazilians speak Portuguese — not Spanish like most of South America!",
+            "Brazil is actually the largest Portuguese-speaking country in the world.",
+            "Hello in Brazilian Portuguese is Olá — say it: oh-LAH!"
+          ]
+        }
+      ]
+    }
+  }
+}

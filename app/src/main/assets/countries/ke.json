@@ -1,0 +1,171 @@
+{
+  "id": "ke",
+  "name": "Kenya",
+  "phonetic": "KEE-nyah",
+  "flagEmoji": "🇰🇪",
+  "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Kenya.svg",
+  "continent": "Africa",
+  "capital": "Nairobi",
+  "latitude": 0.0,
+  "longitude": 37.9,
+  "welcome": "Jambo! Welcome to Kenya — home of the greatest wildlife safari on Earth!",
+  "summary": [
+    "Kenya is a beautiful country in East Africa, sitting right on the equator.",
+    "It is famous for its incredible wildlife — lions, elephants, giraffes, and zebras roam freely here.",
+    "The Masai Mara grasslands host the greatest animal migration on Earth every year."
+  ],
+  "lessons": {
+    "LOCATION": {
+      "type": "LOCATION",
+      "intro": "Kenya sits right in the middle of Africa — let's find it!",
+      "items": [
+        {
+          "title": "Kenya in Africa",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kenya_location_map.svg?width=1400",
+          "narration": [
+            "Kenya is in East Africa, right on the equator — which is the imaginary middle line of the Earth!",
+            "It borders the Indian Ocean, Tanzania, Uganda, Ethiopia, and other countries.",
+            "Standing on the equator in Kenya, you are exactly halfway between the North and South Poles!"
+          ]
+        }
+      ]
+    },
+    "ANIMALS": {
+      "type": "ANIMALS",
+      "intro": "Kenya has more amazing wild animals than almost anywhere else!",
+      "items": [
+        {
+          "title": "African Lion",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lion_waiting_in_Namibia.jpg?width=1400",
+          "narration": [
+            "The lion is known as the King of the Jungle — though in Kenya it lives on the open grassland!",
+            "Male lions have magnificent manes of thick, golden fur.",
+            "Lions live in family groups called prides and are the only cats that do so."
+          ],
+          "ambient": "savanna"
+        },
+        {
+          "title": "African Elephant",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Amboseli_elephant_charging.jpg?width=1400",
+          "narration": [
+            "African elephants are the largest land animals on Earth!",
+            "They use their amazing trunks to drink, eat, and even hug each other.",
+            "Elephants never forget — they can remember friends and places for 50 years!"
+          ],
+          "ambient": "savanna"
+        },
+        {
+          "title": "Giraffe",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Giraffe_standingEar.jpg?width=1400",
+          "narration": [
+            "Giraffes are the tallest animals in the world — up to 6 metres tall!",
+            "Their incredibly long necks help them reach leaves high in acacia trees.",
+            "Despite their huge size, giraffes only sleep about 30 minutes a day!"
+          ],
+          "ambient": "savanna"
+        },
+        {
+          "title": "Cheetah",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cheetah_(Acinonyx_jubatus)_walking.jpg?width=1400",
+          "narration": [
+            "The cheetah is the fastest land animal on Earth — it can reach 112 kilometres per hour!",
+            "It uses its speed to chase down prey like gazelles across the open plains.",
+            "Unlike other big cats, cheetahs cannot roar — instead they make a sound like a bird chirping!"
+          ]
+        }
+      ]
+    },
+    "NATURE": {
+      "type": "NATURE",
+      "intro": "Kenya's landscapes are breathtakingly beautiful!",
+      "items": [
+        {
+          "title": "Masai Mara Safari",
+          "phonetic": "MAH-sigh MAR-ah",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Wildebeest_Masai_Mara.jpg?width=1400",
+          "narration": [
+            "Every year, over two million wildebeest, zebras, and gazelles migrate across the Masai Mara!",
+            "This is called the Great Migration — the greatest wildlife spectacle on Earth.",
+            "Lions, cheetahs, and crocodiles wait to catch the herds as they cross the rivers."
+          ],
+          "ambient": "savanna"
+        },
+        {
+          "title": "Mount Kenya",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Kenya.jpg?width=1400",
+          "narration": [
+            "Mount Kenya is the second-highest mountain in Africa, reaching 5,199 metres!",
+            "Even though it is almost on the equator, its peaks are covered in snow.",
+            "The country of Kenya was named after this magnificent mountain."
+          ]
+        }
+      ]
+    },
+    "PEOPLE": {
+      "type": "PEOPLE",
+      "intro": "Kenya is home to more than 40 different peoples and cultures!",
+      "items": [
+        {
+          "title": "Maasai People",
+          "phonetic": "MAH-sigh",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Maasai_warriors.jpg?width=1400",
+          "narration": [
+            "The Maasai are one of Kenya's most famous peoples, known for their bright red clothing!",
+            "They are semi-nomadic — they move with their cattle across the grasslands.",
+            "Maasai warriors are famous for their incredible jumping ability — they leap very high to show their strength!"
+          ]
+        }
+      ]
+    },
+    "FOOD": {
+      "type": "FOOD",
+      "intro": "Kenyan food is hearty, flavourful, and made with love!",
+      "items": [
+        {
+          "title": "Ugali",
+          "phonetic": "oo-GAH-lee",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ugali_with_vegetables.jpg?width=1400",
+          "narration": [
+            "Ugali is Kenya's most important staple food — made from maize flour and water.",
+            "It is cooked into a thick, stiff porridge that you eat with your hands.",
+            "Kenyans eat it almost every day, scooping up vegetables, beans, or meat with it."
+          ]
+        },
+        {
+          "title": "Nyama Choma",
+          "phonetic": "nyah-mah CHOH-mah",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nyama_choma.jpg?width=1400",
+          "narration": [
+            "Nyama Choma means roasted meat in Swahili — and it is Kenya's favourite dish!",
+            "Meat is grilled over an open fire until it is perfectly charred and juicy.",
+            "Eating nyama choma with friends and family is a big celebration in Kenya."
+          ]
+        }
+      ]
+    },
+    "FUN_FACTS": {
+      "type": "FUN_FACTS",
+      "intro": "Kenya is full of remarkable facts!",
+      "items": [
+        {
+          "title": "World's Fastest Runners",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eliud_Kipchoge_2015_(crop).jpg?width=1400",
+          "narration": [
+            "Kenya produces the world's fastest long-distance runners!",
+            "Kenyan athletes have won more Olympic marathon medals than any other nation.",
+            "The Rift Valley in Kenya is called the cradle of world running champions."
+          ]
+        },
+        {
+          "title": "Flamingo Lake",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Flamingos_Lake_Nakuru_Kenya.jpg?width=1400",
+          "narration": [
+            "Lake Nakuru in Kenya turns bright PINK — because of millions of flamingos!",
+            "Up to two million flamingos gather there, making it look like a pink carpet.",
+            "It is one of the most spectacular wildlife scenes in the world."
+          ]
+        }
+      ]
+    }
+  }
+}

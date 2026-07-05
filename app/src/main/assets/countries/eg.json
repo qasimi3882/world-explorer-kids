@@ -1,0 +1,181 @@
+{
+  "id": "eg",
+  "name": "Egypt",
+  "phonetic": "EE-jipt",
+  "flagEmoji": "🇪🇬",
+  "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Egypt.svg",
+  "continent": "Africa",
+  "capital": "Cairo",
+  "latitude": 26.8,
+  "longitude": 30.8,
+  "welcome": "Hello! Welcome to Egypt — land of the pharaohs and the amazing pyramids!",
+  "summary": [
+    "Egypt is one of the oldest countries in the world.",
+    "Millions of people lived here thousands of years ago — they built giant stone pyramids!",
+    "Egypt sits in northeast Africa, next to the beautiful Nile River."
+  ],
+  "lessons": {
+    "LOCATION": {
+      "type": "LOCATION",
+      "intro": "Let's see where Egypt is on our world map!",
+      "items": [
+        {
+          "title": "Egypt in Africa",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Egypt_location_map.svg?width=1400",
+          "narration": [
+            "Egypt is in the northeastern corner of Africa.",
+            "It is next to the Red Sea and the Mediterranean Sea.",
+            "The mighty Nile River flows through Egypt from south to north."
+          ]
+        }
+      ]
+    },
+    "LANDMARKS": {
+      "type": "LANDMARKS",
+      "intro": "Egypt has some of the most amazing buildings ever made!",
+      "items": [
+        {
+          "title": "The Great Pyramid",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pyramids_of_Giza_July_2008-1.jpg?width=1400",
+          "narration": [
+            "The Great Pyramid of Giza is one of the Seven Wonders of the Ancient World!",
+            "It was built over 4,500 years ago — without any machines!",
+            "More than two million stone blocks were used to build it."
+          ],
+          "ambient": "desert_wind"
+        },
+        {
+          "title": "The Great Sphinx",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Great_Sphinx_of_Giza_-_20080716a.jpg?width=1400",
+          "narration": [
+            "The Sphinx is a giant statue with the head of a person and the body of a lion!",
+            "It has been sitting in the desert for thousands of years.",
+            "It is as tall as a six-story building!"
+          ],
+          "ambient": "desert_wind"
+        },
+        {
+          "title": "The Nile River",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nile_River_and_Luxor,_Egypt.jpg?width=1400",
+          "narration": [
+            "The Nile is the longest river in the world!",
+            "Ancient Egyptians farmed along its banks for thousands of years.",
+            "The river gave them water, food, and a way to travel."
+          ],
+          "ambient": "river"
+        }
+      ]
+    },
+    "ANIMALS": {
+      "type": "ANIMALS",
+      "intro": "Egypt is home to some fascinating animals!",
+      "items": [
+        {
+          "title": "Camel",
+          "phonetic": "KAY-mul",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Camelus_dromedarius_at_Tierpark_Berlin.jpg?width=1400",
+          "narration": [
+            "Camels are called the ships of the desert!",
+            "They can carry heavy loads and walk for days without water.",
+            "Their humps store fat — not water — to give them energy."
+          ]
+        },
+        {
+          "title": "Nile Crocodile",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/NileCrocodile.jpg?width=1400",
+          "narration": [
+            "Nile crocodiles are huge reptiles that live in Egypt's rivers.",
+            "Ancient Egyptians thought they were sacred animals.",
+            "They can hold their breath underwater for up to two hours!"
+          ],
+          "ambient": "river"
+        }
+      ]
+    },
+    "FOOD": {
+      "type": "FOOD",
+      "intro": "Egyptian food is colorful, tasty, and full of flavour!",
+      "items": [
+        {
+          "title": "Koshari",
+          "phonetic": "ko-SHA-ree",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Koshary_abou_tarek.jpg?width=1400",
+          "narration": [
+            "Koshari is Egypt's national dish — everyone loves it!",
+            "It is a big bowl of rice, lentils, pasta, and crispy onions.",
+            "On top goes a spicy tomato sauce. Yummy!"
+          ]
+        },
+        {
+          "title": "Falafel",
+          "phonetic": "fa-LAH-ful",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Falafel_1.jpg?width=1400",
+          "narration": [
+            "Falafel are crispy little balls made from ground chickpeas.",
+            "Egyptians eat them for breakfast — stuffed inside warm bread!",
+            "They are crunchy outside and soft and green inside."
+          ]
+        }
+      ]
+    },
+    "LANGUAGE": {
+      "type": "LANGUAGE",
+      "intro": "In Egypt, people speak Arabic. Let's learn some words!",
+      "items": [
+        {
+          "title": "Marhaba — Hello",
+          "phonetic": "mar-HA-ba",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cairo_Salah-El-Din_Citadel.jpg?width=1400",
+          "narration": [
+            "Marhaba means hello in Arabic!",
+            "Say it with me — mar-HA-ba!",
+            "Arabic is read from right to left on the page."
+          ]
+        },
+        {
+          "title": "Shukran — Thank You",
+          "phonetic": "SHOO-kran",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Khan_el-Khalili_market.jpg?width=1400",
+          "narration": [
+            "Shukran means thank you in Arabic!",
+            "Say it with me — SHOO-kran!",
+            "Egyptian people are very warm and friendly."
+          ]
+        }
+      ]
+    },
+    "FUN_FACTS": {
+      "type": "FUN_FACTS",
+      "intro": "Here are some amazing facts about Egypt!",
+      "items": [
+        {
+          "title": "Ancient Writing",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rosetta_Stone_BW.jpeg?width=1400",
+          "narration": [
+            "Ancient Egyptians invented their own picture writing called hieroglyphics!",
+            "Each little picture was a letter or a word.",
+            "Scientists took hundreds of years to figure out how to read it."
+          ]
+        },
+        {
+          "title": "Desert Land",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sahara_desert.jpg?width=1400",
+          "narration": [
+            "Almost all of Egypt is covered by the Sahara Desert — the biggest hot desert on Earth!",
+            "Only about 5% of the land is green — along the Nile River.",
+            "More than 100 million people all live in that tiny green strip!"
+          ]
+        },
+        {
+          "title": "Cat Lovers",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gatto_europeo4.jpg?width=1400",
+          "narration": [
+            "Ancient Egyptians loved cats so much, they thought they were magical!",
+            "Cats were treated like royalty and even mummified after they died.",
+            "Hurting a cat in ancient Egypt was against the law!"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "id": "us",
+  "name": "United States",
+  "phonetic": "yoo-NYE-ted STAYS",
+  "flagEmoji": "🇺🇸",
+  "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg",
+  "continent": "North America",
+  "capital": "Washington D.C.",
+  "latitude": 37.1,
+  "longitude": -95.7,
+  "welcome": "Hello! Welcome to the United States of America — a huge country full of adventure, nature, and amazing cities!",
+  "summary": [
+    "The United States is one of the largest countries in the world.",
+    "It has 50 states, from the icy wilderness of Alaska to the sunny beaches of Hawaii.",
+    "The USA is famous for its national parks, diverse cities, and innovations that changed the world."
+  ],
+  "lessons": {
+    "LOCATION": {
+      "type": "LOCATION",
+      "intro": "The USA stretches across an enormous piece of North America!",
+      "items": [
+        {
+          "title": "USA in North America",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/USA_location_map.svg?width=1400",
+          "narration": [
+            "The United States covers most of the middle section of North America.",
+            "It stretches from the Atlantic Ocean on the east to the Pacific Ocean on the west.",
+            "It also includes Alaska up near the Arctic and the tropical islands of Hawaii."
+          ]
+        }
+      ]
+    },
+    "LANDMARKS": {
+      "type": "LANDMARKS",
+      "intro": "The USA has famous landmarks from coast to coast!",
+      "items": [
+        {
+          "title": "Statue of Liberty",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Statue_of_Liberty_7.jpg?width=1400",
+          "narration": [
+            "The Statue of Liberty stands on an island in New York Harbour, welcoming people to America!",
+            "It was a gift from France to the United States in 1886.",
+            "Lady Liberty holds a torch of freedom and a tablet with an important date."
+          ]
+        },
+        {
+          "title": "Grand Canyon",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Canyon_view_from_Pima_Point_2010.jpg?width=1400",
+          "narration": [
+            "The Grand Canyon is one of the greatest natural wonders on Earth!",
+            "It is 446 kilometres long and over a kilometre deep.",
+            "The Colorado River carved it out over millions of years of flowing water."
+          ],
+          "ambient": "desert_wind"
+        },
+        {
+          "title": "Mount Rushmore",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Rushmore_National_Memorial.jpg?width=1400",
+          "narration": [
+            "Mount Rushmore has four US presidents carved right into the mountain rock!",
+            "The faces of George Washington, Thomas Jefferson, Theodore Roosevelt, and Abraham Lincoln look out over the Black Hills.",
+            "Each face is about 18 metres tall — taller than a five-story building!"
+          ]
+        }
+      ]
+    },
+    "NATURE": {
+      "type": "NATURE",
+      "intro": "The USA has some of the world's most stunning natural scenery!",
+      "items": [
+        {
+          "title": "Yellowstone",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Prismatic_Spring_2013.jpg?width=1400",
+          "narration": [
+            "Yellowstone is the world's first national park — created to protect nature forever.",
+            "Its rainbow-coloured hot springs and geysers are like something from another planet.",
+            "The famous Old Faithful geyser shoots boiling water into the air every 90 minutes!"
+          ]
+        },
+        {
+          "title": "Niagara Falls",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Niagara_Falls_USA.jpg?width=1400",
+          "narration": [
+            "Niagara Falls is one of the world's most powerful waterfalls!",
+            "More than 3,000 tonnes of water flow over its edge every second.",
+            "You can ride a boat right up to the edge of the falls and feel the incredible mist!"
+          ],
+          "ambient": "waterfall"
+        }
+      ]
+    },
+    "FOOD": {
+      "type": "FOOD",
+      "intro": "American food comes from cultures all around the world!",
+      "items": [
+        {
+          "title": "Hamburger",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hamburger_(black_bg).jpg?width=1400",
+          "narration": [
+            "The hamburger is America's most famous food — enjoyed all around the world!",
+            "A juicy beef patty sits between a soft bun with cheese, lettuce, and tomato.",
+            "Americans eat about 50 billion hamburgers every year — that's three a day for everyone!"
+          ]
+        },
+        {
+          "title": "Apple Pie",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Apple_pie.jpg?width=1400",
+          "narration": [
+            "Apple pie is so beloved in America, people say it is as American as apple pie!",
+            "It is a golden, flaky pastry filled with sweet cinnamon apples.",
+            "Best served warm with a scoop of vanilla ice cream on top — yum!"
+          ]
+        }
+      ]
+    },
+    "CITIES": {
+      "type": "CITIES",
+      "intro": "The USA has some of the world's most exciting cities!",
+      "items": [
+        {
+          "title": "New York City",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/NYC_wideangle_south_from_Top_of_the_Rock.jpg?width=1400",
+          "narration": [
+            "New York City is one of the greatest cities in the world!",
+            "Its famous skyline is filled with towering skyscrapers.",
+            "The city never sleeps — it is always buzzing with activity, day and night."
+          ]
+        }
+      ]
+    },
+    "FUN_FACTS": {
+      "type": "FUN_FACTS",
+      "intro": "Here are some amazing facts about the USA!",
+      "items": [
+        {
+          "title": "First on the Moon",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Apollo_11_first_step.jpg?width=1400",
+          "narration": [
+            "In 1969, American astronaut Neil Armstrong became the first human to walk on the Moon!",
+            "He said the famous words: One small step for man, one giant leap for mankind.",
+            "NASA — the American space agency — has led humans further into space than any other country."
+          ]
+        },
+        {
+          "title": "50 States",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_of_USA_with_state_names.svg?width=1400",
+          "narration": [
+            "The United States has 50 states — each one is like its own mini-country!",
+            "Texas is so big that it could fit 10 United Kingdoms inside it.",
+            "Hawaii is the only US state made entirely of islands in the Pacific Ocean."
+          ]
+        }
+      ]
+    }
+  }
+}

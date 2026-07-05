@@ -88,7 +88,7 @@
    "continent": "Oceania",
    "latitude": -25.008,
    "longitude": 134.258,
-   "ready": false
+   "ready": true
   },
   {
    "id": "at",
@@ -218,7 +218,7 @@
    "continent": "Americas",
    "latitude": -9.639,
    "longitude": -56.947,
-   "ready": false
+   "ready": true
   },
   {
    "id": "bn",
@@ -328,7 +328,7 @@
    "continent": "Asia",
    "latitude": 36.585,
    "longitude": 106.043,
-   "ready": false
+   "ready": true
   },
   {
    "id": "co",
@@ -458,7 +458,7 @@
    "continent": "Africa",
    "latitude": 28.243,
    "longitude": 31.516,
-   "ready": false
+   "ready": true
   },
   {
    "id": "sv",
@@ -548,7 +548,7 @@
    "continent": "Europe",
    "latitude": 46.405,
    "longitude": 3.993,
-   "ready": false
+   "ready": true
   },
   {
    "id": "gf",
@@ -728,7 +728,7 @@
    "continent": "Asia",
    "latitude": 24.019,
    "longitude": 83.445,
-   "ready": false
+   "ready": true
   },
   {
    "id": "id",
@@ -771,16 +771,6 @@
    "ready": false
   },
   {
-   "id": "il",
-   "iso3": "ISR",
-   "name": "Israel",
-   "flagEmoji": "🇮🇱",
-   "continent": "Asia",
-   "latitude": 32.16,
-   "longitude": 35.201,
-   "ready": false
-  },
-  {
    "id": "it",
    "iso3": "ITA",
    "name": "Italy",
@@ -788,7 +778,7 @@
    "continent": "Europe",
    "latitude": 42.057,
    "longitude": 12.45,
-   "ready": false
+   "ready": true
   },
   {
    "id": "ci",
@@ -838,7 +828,7 @@
    "continent": "Africa",
    "latitude": 1.218,
    "longitude": 37.872,
-   "ready": false
+   "ready": true
   },
   {
    "id": "cs-km",
@@ -1028,7 +1018,7 @@
    "continent": "Americas",
    "latitude": 23.835,
    "longitude": -103.013,
-   "ready": false
+   "ready": true
   },
   {
    "id": "md",
@@ -1698,7 +1688,7 @@
    "continent": "Americas",
    "latitude": 45.013,
    "longitude": -121.355,
-   "ready": false
+   "ready": true
   },
   {
    "id": "uy",
@@ -1753,7 +1743,7 @@
   {
    "id": "ps",
    "iso3": "PSE",
-   "name": "West Bank",
+   "name": "Palestine",
    "flagEmoji": "🇵🇸",
    "continent": "Asia",
    "latitude": 31.909,

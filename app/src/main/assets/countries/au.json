@@ -1,0 +1,156 @@
+{
+  "id": "au",
+  "name": "Australia",
+  "phonetic": "aw-STRAYL-yuh",
+  "flagEmoji": "🇦🇺",
+  "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_(converted).svg",
+  "continent": "Oceania",
+  "capital": "Canberra",
+  "latitude": -25.3,
+  "longitude": 133.8,
+  "welcome": "G'day! Welcome to Australia — the land of kangaroos, koalas, and the Great Barrier Reef!",
+  "summary": [
+    "Australia is the world's largest island — and its own continent!",
+    "It is home to some of the most unique animals on the planet.",
+    "Australia is famous for its red deserts, sunny beaches, and friendly people."
+  ],
+  "lessons": {
+    "LOCATION": {
+      "type": "LOCATION",
+      "intro": "Australia is at the bottom of the world — let's find it!",
+      "items": [
+        {
+          "title": "Australia in the Southern Hemisphere",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Australia_location_map.svg?width=1400",
+          "narration": [
+            "Australia is in the southern hemisphere, which means their summer is in December!",
+            "It is the sixth-largest country in the world by area.",
+            "Australia is completely surrounded by the Indian and Pacific Oceans."
+          ]
+        }
+      ]
+    },
+    "ANIMALS": {
+      "type": "ANIMALS",
+      "intro": "Australia has animals found nowhere else on Earth!",
+      "items": [
+        {
+          "title": "Kangaroo",
+          "phonetic": "kan-guh-ROO",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kangaroo_Australia_-_1.jpg?width=1400",
+          "narration": [
+            "Kangaroos are Australia's most famous animals and are on its national coat of arms!",
+            "Baby kangaroos, called joeys, live in their mum's warm pouch.",
+            "Kangaroos can jump 3 metres high and travel at 70 kilometres per hour!"
+          ]
+        },
+        {
+          "title": "Koala",
+          "phonetic": "ko-AH-lah",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Koala_climbing_tree.jpg?width=1400",
+          "narration": [
+            "Koalas are fluffy, sleepy animals that live in eucalyptus trees!",
+            "They sleep up to 22 hours a day to save energy from their tough leaf diet.",
+            "Koalas have special fingerprints — just like humans!"
+          ],
+          "ambient": "forest"
+        },
+        {
+          "title": "Platypus",
+          "phonetic": "PLAT-ih-pus",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Platypus.jpg?width=1400",
+          "narration": [
+            "The platypus is one of the strangest animals ever — it has a duck's beak, a beaver's tail, and an otter's feet!",
+            "It is one of the only mammals in the world that lays eggs.",
+            "Male platypuses have a tiny spur on their hind leg that can deliver venom!"
+          ]
+        },
+        {
+          "title": "Wombat",
+          "phonetic": "WOM-bat",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bare-nosed_Wombat.jpg?width=1400",
+          "narration": [
+            "Wombats are chunky, loveable marsupials that dig burrows underground.",
+            "A wombat's pouch faces backwards so dirt doesn't get in while it digs!",
+            "The most surprising fact: wombat poo is cube-shaped — the only animal in the world!"
+          ]
+        }
+      ]
+    },
+    "NATURE": {
+      "type": "NATURE",
+      "intro": "Australia's nature is breathtaking and one-of-a-kind!",
+      "items": [
+        {
+          "title": "Great Barrier Reef",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Great_Barrier_Reef,_Australia.jpg?width=1400",
+          "narration": [
+            "The Great Barrier Reef is the largest living structure on Earth!",
+            "It stretches over 2,300 kilometres along Australia's coast.",
+            "Thousands of colourful fish, turtles, and corals call it home."
+          ],
+          "ambient": "ocean"
+        },
+        {
+          "title": "Uluru",
+          "phonetic": "oo-loo-ROO",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Uluru,_helicoptershot.jpg?width=1400",
+          "narration": [
+            "Uluru is a massive red sandstone rock rising out of the Australian desert.",
+            "It glows orange, pink, and red as the sun rises and sets.",
+            "Uluru is sacred to the Aboriginal people — Australia's First Nations."
+          ],
+          "ambient": "desert_wind"
+        }
+      ]
+    },
+    "LANDMARKS": {
+      "type": "LANDMARKS",
+      "intro": "Australia has some of the world's most iconic buildings!",
+      "items": [
+        {
+          "title": "Sydney Opera House",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sydney_Opera_House_-_Dec_2008.jpg?width=1400",
+          "narration": [
+            "The Sydney Opera House looks like giant white sails rising from the harbour!",
+            "It is one of the most recognisable buildings in the world.",
+            "Every year, over two million people go inside to watch concerts and shows."
+          ]
+        }
+      ]
+    },
+    "FUN_FACTS": {
+      "type": "FUN_FACTS",
+      "intro": "Australia is full of wild and wonderful facts!",
+      "items": [
+        {
+          "title": "Dangerous Animals",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Saltwater_crocodile_on_a_riverbank.jpg?width=1400",
+          "narration": [
+            "Australia is home to more venomous animals than any other country!",
+            "This includes the world's most venomous snake, spider, jellyfish, and octopus.",
+            "But do not worry — Australia is actually very safe for visitors!"
+          ]
+        },
+        {
+          "title": "Upside-Down Seasons",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bondi_Beach_Australia.jpg?width=1400",
+          "narration": [
+            "Because Australia is in the southern hemisphere, its seasons are opposite to ours!",
+            "When it is winter in Europe, Australians are having a hot summer at the beach.",
+            "Australians celebrate Christmas in summer — with barbeques on the beach!"
+          ]
+        },
+        {
+          "title": "Ancient Culture",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aboriginal_bark_painting.jpg?width=1400",
+          "narration": [
+            "Aboriginal Australians have lived on this land for at least 65,000 years!",
+            "They have the oldest continuous culture on Earth.",
+            "Their art, stories, and deep connection to the land are extraordinary."
+          ]
+        }
+      ]
+    }
+  }
+}

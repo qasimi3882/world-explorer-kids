@@ -1,0 +1,161 @@
+{
+  "id": "it",
+  "name": "Italy",
+  "phonetic": "IT-uh-lee",
+  "flagEmoji": "🇮🇹",
+  "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+  "continent": "Europe",
+  "capital": "Rome",
+  "latitude": 41.9,
+  "longitude": 12.6,
+  "welcome": "Ciao! Welcome to Italy — the home of pizza, pasta, ancient ruins, and gondola rides!",
+  "summary": [
+    "Italy is a beautiful country in southern Europe, shaped like a boot kicking a ball!",
+    "It has been home to some of the greatest artists, architects, and scientists in history.",
+    "Italy is famous for its delicious food, ancient history, and breathtaking cities."
+  ],
+  "lessons": {
+    "LOCATION": {
+      "type": "LOCATION",
+      "intro": "Italy looks like a boot — let's find it on the map!",
+      "items": [
+        {
+          "title": "Italy in Europe",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Italy_location_map.svg?width=1400",
+          "narration": [
+            "Italy is a long peninsula that sticks out into the Mediterranean Sea.",
+            "Look at the map — it really does look like a boot about to kick a ball!",
+            "The islands of Sicily and Sardinia are also part of Italy."
+          ]
+        }
+      ]
+    },
+    "LANDMARKS": {
+      "type": "LANDMARKS",
+      "intro": "Italy has so many amazing landmarks — it is like living in a museum!",
+      "items": [
+        {
+          "title": "The Colosseum",
+          "phonetic": "kol-uh-SEE-um",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Flavian_Amphitheatre.jpg?width=1400",
+          "narration": [
+            "The Colosseum is a giant oval stadium built in ancient Rome nearly 2,000 years ago!",
+            "Up to 80,000 people would pack inside to watch gladiator contests.",
+            "It still stands today — one of the greatest buildings ever made."
+          ]
+        },
+        {
+          "title": "Leaning Tower of Pisa",
+          "phonetic": "PEE-zah",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Leaning_tower_of_pisa_2.jpg?width=1400",
+          "narration": [
+            "The Leaning Tower of Pisa really does lean — and nobody planned it that way!",
+            "The soft ground caused it to tilt as it was being built 800 years ago.",
+            "Today, millions of tourists visit and take funny photos pretending to push it!"
+          ]
+        },
+        {
+          "title": "Venice Canals",
+          "phonetic": "VEN-iss",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Canal_from_Rialto_bridge.jpg?width=1400",
+          "narration": [
+            "Venice is a magical city built on top of 118 small islands!",
+            "Instead of roads, Venice has canals — so people travel by boat.",
+            "The long, elegant boats called gondolas are steered by people with long poles."
+          ],
+          "ambient": "water"
+        }
+      ]
+    },
+    "FOOD": {
+      "type": "FOOD",
+      "intro": "Italian food is loved by children everywhere in the world!",
+      "items": [
+        {
+          "title": "Pizza",
+          "phonetic": "PEET-sah",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eq_it-na_pizza-margherita_sep2005_sml.jpg?width=1400",
+          "narration": [
+            "Pizza was invented in Italy — in the city of Naples!",
+            "A true Italian pizza has a thin, crispy base with tomato sauce and fresh mozzarella cheese.",
+            "The Margherita pizza uses red tomato, white cheese, and green basil — the colours of Italy's flag!"
+          ]
+        },
+        {
+          "title": "Gelato",
+          "phonetic": "jeh-LAH-toh",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gelato_(ice_cream).jpg?width=1400",
+          "narration": [
+            "Gelato is Italian ice cream — but creamier, denser, and more flavourful than regular ice cream!",
+            "It comes in dozens of flavours including pistachio, tiramisu, and hazelnut.",
+            "On a hot day in Italy, gelato from a little shop is absolutely perfect!"
+          ]
+        },
+        {
+          "title": "Pasta",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Spaghetti_bolognese.jpg?width=1400",
+          "narration": [
+            "Italy makes over 350 different shapes of pasta!",
+            "Spaghetti, penne, rigatoni, farfalle — they all taste different even with the same sauce.",
+            "Italians are very serious about pasta — it must be cooked perfectly!"
+          ]
+        }
+      ]
+    },
+    "CITIES": {
+      "type": "CITIES",
+      "intro": "Italy's cities are open-air museums of history and beauty!",
+      "items": [
+        {
+          "title": "Rome",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Trevi_Fountain,_Rome,_Italy_2.jpg?width=1400",
+          "narration": [
+            "Rome is called the Eternal City — it has been important for over 2,800 years!",
+            "Almost everywhere you walk in Rome, you find ancient ruins, fountains, and art.",
+            "Throwing a coin in the Trevi Fountain means you will return to Rome one day!"
+          ]
+        }
+      ]
+    },
+    "LANGUAGE": {
+      "type": "LANGUAGE",
+      "intro": "Italian sounds like a beautiful song — let's learn some words!",
+      "items": [
+        {
+          "title": "Ciao — Hello and Goodbye",
+          "phonetic": "CHOW",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Piazza_Navona_-_Rome,_Italy.jpg?width=1400",
+          "narration": [
+            "Ciao is an Italian word that means both hello AND goodbye!",
+            "Say it with me — CHOW!",
+            "Italians are very expressive — they talk with their hands as well as their words."
+          ]
+        }
+      ]
+    },
+    "FUN_FACTS": {
+      "type": "FUN_FACTS",
+      "intro": "Italy is bursting with extraordinary facts!",
+      "items": [
+        {
+          "title": "A Country Inside Italy",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vatican_from_St_Peter's.jpg?width=1400",
+          "narration": [
+            "Inside Rome, there is a tiny country called Vatican City!",
+            "It is the smallest country in the world — smaller than many city parks.",
+            "Vatican City is the home of the Pope and the Catholic Church."
+          ]
+        },
+        {
+          "title": "Leonardo da Vinci",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Mona_Lisa_(Louvre,_Paris).jpg?width=1400",
+          "narration": [
+            "Leonardo da Vinci was born in Italy over 500 years ago — and he was a genius!",
+            "He painted the Mona Lisa, designed flying machines, and studied the human body.",
+            "He drew designs for helicopters and tanks centuries before they were invented!"
+          ]
+        }
+      ]
+    }
+  }
+}

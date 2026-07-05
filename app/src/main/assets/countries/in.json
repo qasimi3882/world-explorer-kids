@@ -1,0 +1,186 @@
+{
+  "id": "in",
+  "name": "India",
+  "phonetic": "IN-dee-uh",
+  "flagEmoji": "🇮🇳",
+  "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_India.svg",
+  "continent": "Asia",
+  "capital": "New Delhi",
+  "latitude": 20.6,
+  "longitude": 78.9,
+  "welcome": "Namaste! Welcome to India — a land of colours, elephants, and amazing spices!",
+  "summary": [
+    "India is a vast and wonderful country in southern Asia.",
+    "It is home to more than 1.4 billion people — more than any other country on Earth!",
+    "India is famous for its colourful festivals, ancient temples, spicy food, and majestic tigers."
+  ],
+  "lessons": {
+    "LOCATION": {
+      "type": "LOCATION",
+      "intro": "Let's find India on the map — it's a big one!",
+      "items": [
+        {
+          "title": "India in Asia",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/India_location_map.svg?width=1400",
+          "narration": [
+            "India is a large triangle-shaped country pointing south into the Indian Ocean.",
+            "The tall Himalaya mountains protect India in the north.",
+            "India is surrounded by the Arabian Sea, the Bay of Bengal, and the Indian Ocean."
+          ]
+        }
+      ]
+    },
+    "LANDMARKS": {
+      "type": "LANDMARKS",
+      "intro": "India has breathtaking monuments and ancient wonders!",
+      "items": [
+        {
+          "title": "Taj Mahal",
+          "phonetic": "tahj muh-HALL",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Taj_Mahal,_Agra,_India_edit3.jpg?width=1400",
+          "narration": [
+            "The Taj Mahal is one of the most beautiful buildings in the world!",
+            "It was built by an emperor as a gift of love for his wife.",
+            "It is made of shining white marble and took 22 years to build."
+          ]
+        },
+        {
+          "title": "Hawa Mahal",
+          "phonetic": "HAH-wah muh-HALL",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hawa_Mahal_Jaipur_Rajasthan_India.jpg?width=1400",
+          "narration": [
+            "The Hawa Mahal is called the Palace of Winds!",
+            "It has 953 tiny windows, so cool breezes can flow through.",
+            "It is bright pink — the colour of the beautiful city of Jaipur!"
+          ]
+        }
+      ]
+    },
+    "ANIMALS": {
+      "type": "ANIMALS",
+      "intro": "India is home to some of the world's most magnificent animals!",
+      "items": [
+        {
+          "title": "Bengal Tiger",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bengal_Tiger_(Panthera_tigris_tigris)_female_3_crop.jpg?width=1400",
+          "narration": [
+            "The Bengal tiger is India's national animal — and it is magnificent!",
+            "Its orange fur with black stripes helps it hide in tall grass.",
+            "India protects its tigers in special forests called Tiger Reserves."
+          ],
+          "ambient": "jungle"
+        },
+        {
+          "title": "Asian Elephant",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephant_near_Corbett.jpg?width=1400",
+          "narration": [
+            "Asian elephants are loved and respected throughout India.",
+            "Elephants have been part of Indian culture for thousands of years.",
+            "They are very intelligent and can remember places and friends for decades!"
+          ]
+        },
+        {
+          "title": "Indian Peacock",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pavo_cristatus_-_Al_Ain_Zoo.jpg?width=1400",
+          "narration": [
+            "The peacock is India's national bird — and one of the most beautiful birds alive!",
+            "The male peacock spreads its giant feathers like a colourful fan to impress females.",
+            "Peacocks can actually fly, even with those huge tail feathers!"
+          ]
+        }
+      ]
+    },
+    "FOOD": {
+      "type": "FOOD",
+      "intro": "Indian food is bursting with amazing spices and flavours!",
+      "items": [
+        {
+          "title": "Samosa",
+          "phonetic": "sah-MOH-sah",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Samosachutney.jpg?width=1400",
+          "narration": [
+            "Samosas are crispy, triangle-shaped pastries filled with spiced potatoes and peas!",
+            "They are one of India's most popular snacks — sold everywhere on the streets.",
+            "Dip them in green mint chutney for an extra zing!"
+          ]
+        },
+        {
+          "title": "Biryani",
+          "phonetic": "bir-YAH-nee",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Biryani_-_Hyderabadi_Biryani.jpg?width=1400",
+          "narration": [
+            "Biryani is a fragrant, layered rice dish cooked with spices and vegetables or meat.",
+            "It smells incredible from the saffron, cardamom, and cinnamon inside.",
+            "Every region in India makes its own special version of biryani!"
+          ]
+        }
+      ]
+    },
+    "FESTIVALS": {
+      "type": "FESTIVALS",
+      "intro": "India celebrates some of the most colourful festivals in the world!",
+      "items": [
+        {
+          "title": "Holi — Festival of Colours",
+          "phonetic": "HOH-lee",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/A_woman_plays_Holi.jpg?width=1400",
+          "narration": [
+            "Holi is the most colourful festival on Earth!",
+            "People throw bright coloured powder and water at each other — everyone gets covered!",
+            "It celebrates the arrival of spring and the victory of good over evil."
+          ]
+        },
+        {
+          "title": "Diwali — Festival of Lights",
+          "phonetic": "dee-WAH-lee",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Diwali_-_Diyas.jpg?width=1400",
+          "narration": [
+            "Diwali is the Festival of Lights — one of the happiest times of the year!",
+            "People light thousands of small oil lamps called diyas to brighten the night.",
+            "Fireworks fill the sky and families share sweets and gifts."
+          ]
+        }
+      ]
+    },
+    "LANGUAGE": {
+      "type": "LANGUAGE",
+      "intro": "India has 22 official languages! The most common is Hindi.",
+      "items": [
+        {
+          "title": "Namaste — Hello",
+          "phonetic": "na-mah-STAY",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Taj_Mahal_in_March_2004.jpg?width=1400",
+          "narration": [
+            "Namaste is a warm greeting in Hindi — it means I respect you!",
+            "You place your hands together and bow slightly as you say it.",
+            "Say it with me — na-mah-STAY!"
+          ]
+        }
+      ]
+    },
+    "FUN_FACTS": {
+      "type": "FUN_FACTS",
+      "intro": "India is full of incredible facts!",
+      "items": [
+        {
+          "title": "Invented Numbers",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bhopal_-_Sanchi_Stupa.jpg?width=1400",
+          "narration": [
+            "India gave the world the number system we use today — including the number zero!",
+            "Without India's invention of zero, computers and maths would be impossible.",
+            "India also invented chess, yoga, and the game of snakes and ladders!"
+          ]
+        },
+        {
+          "title": "Himalaya Mountains",
+          "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Himalayas_from_Darjeeling.jpg?width=1400",
+          "narration": [
+            "The Himalayas form the highest mountain range on Earth, bordering northern India.",
+            "Mount Everest, the world's tallest peak, is in this range.",
+            "The word Himalaya means House of Snow in Sanskrit."
+          ]
+        }
+      ]
+    }
+  }
+}
