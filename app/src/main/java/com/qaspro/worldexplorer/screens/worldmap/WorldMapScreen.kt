@@ -3,8 +3,11 @@ package com.qaspro.worldexplorer.screens.worldmap
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.gestures.detectTapGestures
-import androidx.compose.foundation.gestures.detectTransformGestures
+import androidx.compose.foundation.gestures.awaitEachGesture
+import androidx.compose.foundation.gestures.awaitFirstDown
+import androidx.compose.foundation.gestures.calculateCentroid
+import androidx.compose.foundation.gestures.calculatePan
+import androidx.compose.foundation.gestures.calculateZoom
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -136,30 +139,52 @@ fun WorldMapScreen(onCountryTap: (String) -> Unit) {
                             initialized = true
                         }
                     }
-                    .pointerInput(shapes) {
-                        detectTransformGestures { centroid, pan, gestureZoom, _ ->
-                            val panned = offset + pan
-                            val newZoom = (zoom * gestureZoom).coerceIn(1f, 9f)
-                            // keep the point under the fingers fixed while zooming
-                            val oldW = canvasW * zoom
-                            val u = if (oldW != 0f) (centroid.x - panned.x) / oldW else 0f
-                            val v = if (oldW != 0f) (centroid.y - panned.y) / (oldW / 2f) else 0f
-                            val newW = canvasW * newZoom
-                            val newH = newW / 2f
-                            zoom = newZoom
-                            offset = clampOffset(
-                                Offset(centroid.x - u * newW, centroid.y - v * newH), newW, newH
-                            )
-                        }
-                    }
                     .pointerInput(shapes, index) {
-                        detectTapGestures { tap ->
-                            val mw = canvasW * zoom
-                            val mh = mw / 2f
-                            if (mw == 0f || mh == 0f) return@detectTapGestures
-                            val p = Offset((tap.x - offset.x) / mw, (tap.y - offset.y) / mh)
-                            val hit = shapes.firstOrNull { WorldShapes.contains(it, p) }
-                            handleSelection(hit?.iso3)
+                        awaitEachGesture {
+                            val firstDown = awaitFirstDown(requireUnconsumed = false)
+                            var pastTouchSlop = false
+
+                            do {
+                                val event = awaitPointerEvent()
+                                val panChange = event.calculatePan()
+                                val zoomChange = event.calculateZoom()
+
+                                if (!pastTouchSlop &&
+                                    (panChange.getDistance() > viewConfiguration.touchSlop || zoomChange != 1f)
+                                ) {
+                                    pastTouchSlop = true
+                                }
+
+                                if (pastTouchSlop) {
+                                    val centroid = event.calculateCentroid(useCurrent = false)
+                                    val newZoom = (zoom * zoomChange).coerceIn(1f, 9f)
+                                    val pannedOffset = offset + panChange
+                                    val oldW = canvasW * zoom
+                                    val u = if (oldW != 0f) (centroid.x - pannedOffset.x) / oldW else 0f
+                                    val v = if (oldW != 0f) (centroid.y - pannedOffset.y) / (oldW / 2f) else 0f
+                                    val newW = canvasW * newZoom
+                                    val newH = newW / 2f
+                                    zoom = newZoom
+                                    offset = clampOffset(
+                                        Offset(centroid.x - u * newW, centroid.y - v * newH),
+                                        newW, newH
+                                    )
+                                    event.changes.forEach { it.consume() }
+                                }
+                            } while (event.changes.any { it.pressed })
+
+                            if (!pastTouchSlop) {
+                                val mw = canvasW * zoom
+                                val mh = mw / 2f
+                                if (mw != 0f && mh != 0f) {
+                                    val p = Offset(
+                                        (firstDown.position.x - offset.x) / mw,
+                                        (firstDown.position.y - offset.y) / mh
+                                    )
+                                    val hit = shapes.firstOrNull { WorldShapes.contains(it, p) }
+                                    handleSelection(hit?.iso3)
+                                }
+                            }
                         }
                     }
             ) {
