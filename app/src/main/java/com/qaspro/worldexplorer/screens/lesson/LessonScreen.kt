@@ -6,6 +6,7 @@ import androidx.compose.animation.core.animateFloat
 import androidx.compose.animation.core.infiniteRepeatable
 import androidx.compose.animation.core.rememberInfiniteTransition
 import androidx.compose.animation.core.tween
+import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -56,6 +57,7 @@ import com.qaspro.worldexplorer.ui.components.SpeakerButton
  * Each picture slowly zooms (Ken Burns), narration plays on its own, and a soft
  * ambient loop sets the mood. Almost no text — just look, listen, and swipe.
  */
+@OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun LessonScreen(
     countryId: String,
