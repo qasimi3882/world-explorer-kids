@@ -66,7 +66,10 @@ fun WorldMapScreen(onCountryTap: (String) -> Unit) {
     val narration = LocalNarration.current
 
     val shapes by produceState(initialValue = emptyList<CountryShape>()) {
-        value = WorldShapes.load(context)
+        value = runCatching { WorldShapes.load(context) }.getOrElse {
+            android.util.Log.e("WorldMap", "GeoJSON load failed", it)
+            emptyList()
+        }
     }
     val index by produceState(initialValue = emptyList<CountrySummary>()) {
         value = repo.loadIndex()
@@ -118,7 +121,7 @@ fun WorldMapScreen(onCountryTap: (String) -> Unit) {
     }
 
     Box(modifier = Modifier.fillMaxSize().background(Ocean)) {
-        if (shapes.isEmpty() || index.isEmpty()) {
+        if (shapes.isEmpty()) {
             LoadingSpinner(modifier = Modifier.fillMaxSize())
         } else {
             Canvas(
